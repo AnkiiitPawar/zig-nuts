@@ -1,0 +1,8 @@
+.{
+    .name = .zig_nuts,
+    .version = "0.1.0",
+    .fingerprint = 0xe2b28a00fad72ab5,
+    .minimum_zig_version = "0.17.1",
+    .dependencies = .{},
+    .paths = .{ "build.zig", "build.zig.zon", "src", "data", "LICENSE", "README.md" },
+}
