@@ -28,10 +28,10 @@ SYNTHETIC = [("iid_normal_100", "iid_normal100"), ("funnel_10", "funnel10")]
 # posteriordb at a fixed commit, for the reference draws and the Stan programs
 POSTERIORDB_URL = "https://github.com/stan-dev/posteriordb.git"
 POSTERIORDB_COMMIT = "91027f9cdd13b7e76283fec3f2898f59d4b83ec4"
-POSTERIORDB = Path(os.environ.get("POSTERIORDB", ROOT / ".cache" / "posteriordb"))
+POSTERIORDB = Path(os.environ.get("POSTERIORDB") or ROOT / ".cache" / "posteriordb")
 
 # CmdStan, built separately; see README
-CMDSTAN_MODELS = Path(os.environ.get("CMDSTAN_MODELS", ROOT / ".cache" / "stan"))
+CMDSTAN_MODELS = Path(os.environ.get("CMDSTAN_MODELS") or ROOT / ".cache" / "stan")
 
 
 def znuts_binary():
