@@ -1,0 +1,44 @@
+{
+  "eight_schools_noncentered": {
+    "points": 20,
+    "lp_offset": 0.0,
+    "lp_offset_spread": 5.329070518200751e-15,
+    "max_grad_rel_diff": 2.7437357610162267e-16
+  },
+  "arK": {
+    "points": 20,
+    "lp_offset": -7.105427357601002e-14,
+    "lp_offset_spread": 2.1827872842550278e-11,
+    "max_grad_rel_diff": 1.9085808845116076e-14
+  },
+  "gp_pois_regr": {
+    "points": 20,
+    "lp_offset": -7.105427357601002e-15,
+    "lp_offset_spread": 2.2744188754586503e-09,
+    "max_grad_rel_diff": 3.0524194946418044e-10
+  },
+  "low_dim_gauss_mix": {
+    "points": 20,
+    "lp_offset": 0.0,
+    "lp_offset_spread": 1.0913936421275139e-11,
+    "max_grad_rel_diff": 1.930356714030167e-14
+  },
+  "wells_dist": {
+    "points": 20,
+    "lp_offset": -3.882450982928276e-08,
+    "lp_offset_spread": 8.501956472173333e-08,
+    "max_grad_rel_diff": 5.896504754473489e-11
+  },
+  "garch11": {
+    "points": 20,
+    "lp_offset": -0.6931471805598903,
+    "lp_offset_spread": 7.389644451905042e-13,
+    "max_grad_rel_diff": 5.855948061874439e-15
+  },
+  "dogs": {
+    "points": 20,
+    "lp_offset": -4.547473508864641e-13,
+    "lp_offset_spread": 6.65095285512507e-08,
+    "max_grad_rel_diff": 3.073380974815052e-10
+  }
+}

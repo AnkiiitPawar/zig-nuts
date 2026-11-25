@@ -1,0 +1,107 @@
+[
+ {
+  "min_ess_bulk": 1784.5084044949472,
+  "min_ess_param": "beta[3]",
+  "max_rhat": 1.0023615521182139,
+  "sampling_seconds": 5.448,
+  "warmup_seconds": 5.538,
+  "n_leapfrog": 40826.0,
+  "divergent": 0,
+  "stepsize": [
+   0.29405963,
+   0.29953086,
+   0.28815303,
+   0.31267403
+  ],
+  "mean_treedepth": 2.959,
+  "model": "dogs",
+  "sampler": "cmdstan",
+  "rep": 1,
+  "seed": 1001,
+  "stan_file": "dogs_td"
+ },
+ {
+  "min_ess_bulk": 1823.7775050957057,
+  "min_ess_param": "beta[1]",
+  "max_rhat": 1.0014967448179086,
+  "sampling_seconds": 5.393,
+  "warmup_seconds": 5.648,
+  "n_leapfrog": 40802.0,
+  "divergent": 0,
+  "stepsize": [
+   0.31630838,
+   0.29871217,
+   0.27267933,
+   0.30510841
+  ],
+  "mean_treedepth": 2.95675,
+  "model": "dogs",
+  "sampler": "cmdstan",
+  "rep": 2,
+  "seed": 1002,
+  "stan_file": "dogs_td"
+ },
+ {
+  "min_ess_bulk": 1593.050622548354,
+  "min_ess_param": "beta[1]",
+  "max_rhat": 1.001867966840771,
+  "sampling_seconds": 5.487,
+  "warmup_seconds": 5.538,
+  "n_leapfrog": 41998.0,
+  "divergent": 0,
+  "stepsize": [
+   0.31655944,
+   0.32609761,
+   0.28794127,
+   0.27746833
+  ],
+  "mean_treedepth": 3.00125,
+  "model": "dogs",
+  "sampler": "cmdstan",
+  "rep": 3,
+  "seed": 1003,
+  "stan_file": "dogs_td"
+ },
+ {
+  "min_ess_bulk": 1694.479196694656,
+  "min_ess_param": "beta[3]",
+  "max_rhat": 1.0023324622183538,
+  "sampling_seconds": 5.4190000000000005,
+  "warmup_seconds": 5.764,
+  "n_leapfrog": 39520.0,
+  "divergent": 0,
+  "stepsize": [
+   0.30987836,
+   0.33444287,
+   0.28416837,
+   0.30867539
+  ],
+  "mean_treedepth": 2.9182500000000005,
+  "model": "dogs",
+  "sampler": "cmdstan",
+  "rep": 4,
+  "seed": 1004,
+  "stan_file": "dogs_td"
+ },
+ {
+  "min_ess_bulk": 1843.0829680431427,
+  "min_ess_param": "beta[3]",
+  "max_rhat": 1.00115260122954,
+  "sampling_seconds": 6.076,
+  "warmup_seconds": 5.513,
+  "n_leapfrog": 44540.0,
+  "divergent": 0,
+  "stepsize": [
+   0.25792637,
+   0.26127869,
+   0.27355595,
+   0.26495353
+  ],
+  "mean_treedepth": 3.08475,
+  "model": "dogs",
+  "sampler": "cmdstan",
+  "rep": 5,
+  "seed": 1005,
+  "stan_file": "dogs_td"
+ }
+]

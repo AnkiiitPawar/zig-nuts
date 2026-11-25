@@ -1,0 +1,107 @@
+[
+ {
+  "min_ess_bulk": 873.0498916295254,
+  "min_ess_param": "beta[1]",
+  "max_rhat": 1.0025382384462893,
+  "sampling_seconds": 0.988,
+  "warmup_seconds": 1.832,
+  "n_leapfrog": 34654.0,
+  "divergent": 0,
+  "stepsize": [
+   0.19040154,
+   0.18418344,
+   0.1769556,
+   0.17165892
+  ],
+  "mean_treedepth": 2.47275,
+  "model": "wells_dist",
+  "sampler": "cmdstan",
+  "rep": 1,
+  "seed": 1001,
+  "stan_file": "wells_glm"
+ },
+ {
+  "min_ess_bulk": 872.7589875244313,
+  "min_ess_param": "beta[1]",
+  "max_rhat": 1.0058056201994725,
+  "sampling_seconds": 1.078,
+  "warmup_seconds": 1.656,
+  "n_leapfrog": 36070.0,
+  "divergent": 0,
+  "stepsize": [
+   0.19597179,
+   0.15328774,
+   0.1574789,
+   0.17909744
+  ],
+  "mean_treedepth": 2.5142499999999997,
+  "model": "wells_dist",
+  "sampler": "cmdstan",
+  "rep": 2,
+  "seed": 1002,
+  "stan_file": "wells_glm"
+ },
+ {
+  "min_ess_bulk": 817.8685998002244,
+  "min_ess_param": "beta[1]",
+  "max_rhat": 1.0077373619971324,
+  "sampling_seconds": 0.998,
+  "warmup_seconds": 1.968,
+  "n_leapfrog": 34224.0,
+  "divergent": 0,
+  "stepsize": [
+   0.19346459,
+   0.18066272,
+   0.18734305,
+   0.16030202
+  ],
+  "mean_treedepth": 2.4585,
+  "model": "wells_dist",
+  "sampler": "cmdstan",
+  "rep": 3,
+  "seed": 1003,
+  "stan_file": "wells_glm"
+ },
+ {
+  "min_ess_bulk": 882.5293700922008,
+  "min_ess_param": "beta[1]",
+  "max_rhat": 1.0057101009827925,
+  "sampling_seconds": 0.88,
+  "warmup_seconds": 1.4609999999999999,
+  "n_leapfrog": 32844.0,
+  "divergent": 0,
+  "stepsize": [
+   0.17479389,
+   0.18484207,
+   0.17637331,
+   0.18429996
+  ],
+  "mean_treedepth": 2.41425,
+  "model": "wells_dist",
+  "sampler": "cmdstan",
+  "rep": 4,
+  "seed": 1004,
+  "stan_file": "wells_glm"
+ },
+ {
+  "min_ess_bulk": 844.6046052675702,
+  "min_ess_param": "beta[1]",
+  "max_rhat": 1.005688335480619,
+  "sampling_seconds": 0.955,
+  "warmup_seconds": 1.476,
+  "n_leapfrog": 36252.0,
+  "divergent": 0,
+  "stepsize": [
+   0.18726788,
+   0.17820677,
+   0.14770307,
+   0.17100041
+  ],
+  "mean_treedepth": 2.52225,
+  "model": "wells_dist",
+  "sampler": "cmdstan",
+  "rep": 5,
+  "seed": 1005,
+  "stan_file": "wells_glm"
+ }
+]
